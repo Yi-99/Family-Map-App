@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="9"
+        >
+
+        <TextView
+            android:id="@+id/serverHostView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server Host:" />
+
+        <TextView
+            android:id="@+id/serverPortView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Server Port:" />
+
+        <TextView
+            android:id="@+id/usernameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="Username:" />
+
+        <TextView
+            android:id="@+id/passwordView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Password:" />
+
+        <TextView
+            android:id="@+id/firstNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="First Name:" />
+
+        <TextView
+            android:id="@+id/lastNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Last Name:" />
+
+        <TextView
+            android:id="@+id/emailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Email:" />
+
+        <TextView
+            android:id="@+id/genderView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="Gender:" />
+
+        <EditText
+            android:id="@+id/lastNameInput"
+            android:text="lim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:hint="lim" />
+
+        <EditText
+            android:id="@+id/firstNameInput"
+            android:text="yirang"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:hint="yirang" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:text="parker"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:hint="parker" />
+
+        <EditText
+            android:id="@+id/serverPortInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8080"
+            android:inputType="text"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:hint="8080" />
+
+        <EditText
+            android:id="@+id/serverHostInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="10.0.2.2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:hint="10.0.2.2" />
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sheila"
+            android:inputType="text"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:hint="sheila" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ylim@gmail.com"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:ems="10"
+            android:hint="ylim@gmail.com"
+            android:inputType="textEmailAddress" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="7"
+            android:layout_column="1">
+
+            <RadioButton
+                android:id="@+id/maleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/femaleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_row="8"
+            >
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_row="8"
+                android:layout_column="1"
+                android:text="Register" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="1"
+                android:text="Login" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

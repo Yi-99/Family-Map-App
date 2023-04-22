@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FMClientReal</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="search_menu">Search Menu</string>
+    <string name="settings">Settings</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="life_events">Life Events</string>
+    <string name="icon_image">Icon</string>
+    <string name="mapFragmentMessage">Click on a marker to see event details</string>
+    <string name="life_event_line_key">lifeEventLines</string>
+    <string name="life_event_lines_summary">Show Life Event Lines</string>
+    <string name="life_event_lines_title">Life Event Lines</string>
+    <string name="family_tree_lines_key">familyTreeLines</string>
+    <string name="family_tree_lines_summary">Show Family Tree Lines</string>
+    <string name="family_tree_lines_title">Family Tree Lines</string>
+    <string name="spouse_lines_key">spouseLine</string>
+    <string name="spouse_lines_title">Spouse Lines</string>
+    <string name="spouse_lines_summary">Show Spouse Lines</string>
+    <string name="father_side_key">fatherSide</string>
+    <string name="father_side_title">Father\'s Side</string>
+    <string name="father_side_summary">Filter By Father\'s Side</string>
+    <string name="mother_side_key">motherSide</string>
+    <string name="mother_side_title">Mother\'s Side</string>
+    <string name="mother_side_summary">Filter By Mother\'s Side</string>
+    <string name="filter_male_key">filterMales</string>
+    <string name="filter_male_title">Male Events</string>
+    <string name="filter_male_summary">Filter Events By Male Gender</string>
+    <string name="filter_female_key">filterFemales</string>
+    <string name="filter_female_title">Female Events</string>
+    <string name="filter_female_summary">Filter Events By Female Gender</string>
+    <string name="logout_key">logout</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_summary">Return to the Login Screen</string>
+</resources>
